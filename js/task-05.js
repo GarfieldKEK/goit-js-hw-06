@@ -1,6 +1,6 @@
 const input = document.querySelector("#name-input")
 const name = document.querySelector("#name-output")
-input.addEventListener("change", setName)
+input.addEventListener("input", setName)
 function setName () {
     if (input.value === "") {
         name.textContent = "Anonymous"
